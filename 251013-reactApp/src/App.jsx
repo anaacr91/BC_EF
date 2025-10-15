@@ -1,43 +1,17 @@
+import Table from './components/Table.jsx'
+import Navegacion from './components/Navegacion.jsx'
 
-import { useState } from 'react'
-import './App.css'
-import Hello from './components/hello.jsx'
-import Counter from './components/Counter.jsx'
-import UserInfo from './components/UserInfo.jsx'
-import TechList from './components/TechList.jsx'
-import NameChanger from './components/NameChanger.jsx'
 
-function App() {
-  // Variables normales (se reinician en cada renderizado)
-  const appTitle = "Mi Aplicación React"
-  const currentYear = new Date().getFullYear()
-  
-  // Estado para el nombre (compartido entre Hello y NameChanger)
-  const [name, setName] = useState("John Doe")
-  const age = 30
-  const email = "john@example.com"
-  
-  // Función para manejar el cambio de nombre desde el componente hijo
-  const handleNameChange = (newName) => {
-    setName(newName)
-  }
-  
-  return (
+function App() {  
+
+    return (
     <>
-      <div>
-        <h1>{appTitle}</h1>
-        <p>Año actual: {currentYear}</p>
-      </div>
-
-      <Hello name={name} age={age} email={email} />
-
-      <Counter />
-      
-      <UserInfo />
-      
-      <TechList />
-
-      <NameChanger onNameChange={handleNameChange} currentName={name} />
+    <header>
+        <h1>Mi Aplicación React</h1>
+    </header>
+    <Navegacion />
+    <h1>Equipo</h1>
+    <Table />
     </>
   )
 }
