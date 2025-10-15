@@ -1,14 +1,13 @@
 import Table from './components/Table.jsx'
 import Navegacion from './components/Navegacion.jsx'
+import Header from './components/Header.jsx'
 
 
 function App() {  
 
     return (
     <>
-    <header>
-        <h1>Mi Aplicación React</h1>
-    </header>
+    <Header />
     <Navegacion />
     <h1>Equipo</h1>
     <Table />

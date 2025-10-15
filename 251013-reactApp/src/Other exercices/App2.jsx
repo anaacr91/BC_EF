@@ -1,11 +1,11 @@
 
 import { useState } from 'react'
-import './App.css'
-import Hello from './components/hello.jsx'
-import Counter from './components/Counter.jsx'
-import UserInfo from './components/UserInfo.jsx'
-import TechList from './components/TechList.jsx'
-import NameChanger from './components/NameChanger.jsx'
+import './css/App1.css'
+import Hello from '../components/hello.jsx'
+import Counter from '../components/Counter.jsx'
+import UserInfo from '../components/UserInfo.jsx'
+import TechList from '../components/TechList.jsx'
+import NameChanger from '../components/NameChanger.jsx'
 
 function App2() {
   // Variables normales (se reinician en cada renderizado)
