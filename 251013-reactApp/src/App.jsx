@@ -1,6 +1,9 @@
-import Table from './components/Table.jsx'
+import Table_Empleados from './components/Table_Empleados.jsx'
 import Navegacion from './components/Navegacion.jsx'
 import Header from './components/Header.jsx'
+import Table_Servicios from './components/Table_Servicios.jsx'
+import Empleado from './components/Empleado.jsx'
+
 
 
 function App() {  
@@ -10,7 +13,10 @@ function App() {
     <Header />
     <Navegacion />
     <h1>Equipo</h1>
-    <Table />
+    <Table_Empleados />
+    <Table_Servicios />
+    <Servicio />
+    <Empleado/>
     </>
   )
 }
