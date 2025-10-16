@@ -15,8 +15,7 @@ function App() {
     <h1>Equipo</h1>
     <Table_Empleados />
     <Table_Servicios />
-    <Servicio />
-    <Empleado/>
+
     </>
   )
 }
