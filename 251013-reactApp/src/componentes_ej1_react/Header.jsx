@@ -1,7 +1,7 @@
-function Header() {
+function Header({ titulo }) {
     return (
         <header className="cabecera">
-            <h1>Mi Aplicación React</h1>
+            <h1 >{titulo}</h1>
         </header>
     )
 }   
